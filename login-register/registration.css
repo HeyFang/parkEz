@@ -1,0 +1,17 @@
+body{
+    padding: 50px !important;
+}
+
+#registration-form{
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    padding: 50px !important;
+    box-shadow: rgba(61, 61, 67, 0.2) 0px 7px 29px 0px !important;
+}
+
+.form-group{
+    margin-bottom: 30px !important;
+}
+
+
+
