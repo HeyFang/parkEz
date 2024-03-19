@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Open Sans', sans-serif; /* Open Sans font */
+}
+
+header, h1, h2 {
+    color: #90ee90; /* Light green headings */
+    text-align: center; /* Centered headings */
+}
+
+.btn {
+    display: inline-block; /* Make the buttons inline-block elements */
+    width: auto; /* Auto width based on content */
+    margin: 10px; /* Add margin around the buttons */
+    background-color: #90ee90; /* Light green buttons */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7ccd7c; /* Darker green when hovered */
+}
+
+.button-container {
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}

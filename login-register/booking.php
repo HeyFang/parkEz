@@ -89,7 +89,7 @@ document.querySelector('.book').addEventListener('click', function() {
 
     // Set the heading
     doc.setFontSize(22);
-    doc.text('Booking Details', 10, 20);
+    doc.text('Booking Ticket', 10, 20);
 
     // Generate a random ticket ID
     var ticketId = Math.floor(Math.random() * 1000000);
@@ -112,7 +112,14 @@ document.querySelector('.book').addEventListener('click', function() {
     doc.text('Selected Area: ' + selectedArea, 10, 50);
     doc.text('Selected Date: ' + selectedDate, 10, 60);
     doc.text('Selected Time: ' + selectedTime, 10, 70);
-    doc.text('Selected SLot(s): ' + clickedButtons, 10, 80);
+    doc.text('Selected Slot(s): ' + clickedButtons, 10, 80);
+    
+    // Calculate the total cost
+    var totalCost = clickedButtons.split(', ').length * 50;
+
+    // Add the total cost to the document
+    doc.text('Total Cost: ' + totalCost + ' INR', 10, 90);
+
 
     // Get the PDF data as a data URL
     var pdfData = doc.output('datauristring');
