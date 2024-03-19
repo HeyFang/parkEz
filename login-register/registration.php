@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="registration.css">
 </head>
 <body>
+<h1>Online Parking Reservation</h1>
   <div class="container" id="registration-form">
     <?php
       if (isset($_POST["submit"])) {
@@ -87,7 +88,7 @@
         <input type="password" class="form-control" name="confirm_password" placeholder="confirm password">
       </div>
       <div class="form-btn">
-        <input type="submit" class="btn btn-primary" value="register" name="submit">
+        <input type="submit" class="btn btn-success" value="register" name="submit">
       </div>
     </form>
     <div id="reg">

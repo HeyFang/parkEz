@@ -1,0 +1,78 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1,h2{
+    color: #90ee90;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select, input[type="date"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    display: inline-block;
+}
+
+button, input[type="submit"] {
+    background-color: #90ee90;
+    color: #000;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+#afterSubmit img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 500px;  /* Adjust as needed */
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Adjust as needed */
+    justify-items: center;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.book {
+    background-color: white;
+    color: black; /* Change the text color if needed */
+    display: block;
+    margin: auto;
+}
+

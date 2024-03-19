@@ -16,8 +16,9 @@ if (!isset($_SESSION["user"])) {
 </head>
 <body>
     <div class="container" id="registration-form">
-       <h1> welcome to main page.</h1>
+    <h1>Online Parking Reservation</h1>
          <a href="logout.php" class="btn btn-danger">Logout</a>
+         <a href="booking.php" class="btn btn-success">book now</a>
     </div>
 </body>
 </html>

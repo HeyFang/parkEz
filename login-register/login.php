@@ -16,6 +16,7 @@ if (isset($_SESSION["user"])) {
     <title>Login</title>
 </head>
 <body>
+<h1>Online Parking Reservation</h1>
     <div class="container" id="registration-form">
         <?php
         if (isset($_POST["login"])) {
@@ -49,7 +50,7 @@ if (isset($_SESSION["user"])) {
                 <input type="password" name="password" placeholder="enter password" id="password" class="form-control">
             </div>
             <div class="form-btn">
-                <input type="submit" name="login" value="Login" class="btn btn-primary">
+                <input type="submit" name="login" value="Login" class="btn btn-success">
             </div>
         </form>
         <div id="reg"><p>Don't have an account?</p>
