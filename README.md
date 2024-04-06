@@ -13,11 +13,11 @@ You guys can help me complete it, all you need to know are basics of front end, 
 3. run xampp, start apace server and mysql db.
 4. type localhost in your browser and hit enter.
 5. you can visit site by typing path of homepage: parkez/login-register/welcome.html
-6. you can open myphp admin for configuring databse:
-     a.create a new db named "login_register"
-     b.table name "users"
+6. you can open myphp admin for configuring databse: <br>
+     a.create a new db named "login_register" <br>
+     b.table name "users" <br>
      c.create 4 columns, named "id" (int) with idex as primary, "full_name" (varchar), "email" (varchar), "password" 
-      (varchar)... set lengths according to you...
+      (varchar)... set lengths according to you... <br>
      d.hit save and you are good to go :)
 
 
