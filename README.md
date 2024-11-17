@@ -2,8 +2,8 @@
 
 site doesnt have any configured db for recording selected spots into db...
 
-i am completely new to backend programming, n somehow tricked my teacher into believing this site works :P
-but now i do want to complete it. :)
+
+Now i do want to complete it. :)
 You guys can help me complete it, all you need to know are basics of front end, php and mysql.
 
 
