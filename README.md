@@ -12,8 +12,8 @@ You guys can help me complete it, all you need to know are basics of front end, 
 2. clone this repo in xampp/htdocs directory.
 3. run xampp, start apace server and mysql db.
 4. type localhost in your browser and hit enter.
-5. you can visit site by typing path of homepage: localhost/parkez/login-register/welcome.html
-6. you can open myphp admin for configuring databse: <br>
+5. you can visit site by typing path of homepage in your browser: localhost/parkez/login-register/welcome.html
+7. you can open myphp admin for configuring databse: <br>
      a.create a new db named "login_register" <br>
      b.table name "users" <br>
      c.create 4 columns, named "id" (int) with idex as primary, "full_name" (varchar), "email" (varchar), "password" 
